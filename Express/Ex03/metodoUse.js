@@ -1,7 +1,6 @@
 const express = require("express");
 const server = express();
 
-//Metodo use
 server.use(function (req, res, next) {
   console.log("Inicio...");
   next();
